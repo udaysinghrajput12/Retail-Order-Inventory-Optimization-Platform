@@ -1,4 +1,5 @@
-const API_BASE_URL = (window.location.port === '3000') ? '' : 'http://localhost:3000';
+//const API_BASE_URL = (window.location.port === '3000') ? '' : 'http://localhost:3000';
+const API_BASE_URL = "https://retail-api-plan-c3etckdrf4exb8ft.eastasia-01.azurewebsites.net";
 
 async function fetchAPI(endpoint, options = {}) {
     const url = `${API_BASE_URL}${endpoint}`;
